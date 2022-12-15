@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Home({ posts }) {
+  console.log(posts);
   return (
     <div>
       <Head>
@@ -10,4 +11,13 @@ export default function Home() {
       </Head>
     </div>
   )
+}
+
+export async function getStaticProps() {
+
+  return {
+    props: {
+      posts: 'Test Posts'
+    }
+  }
 }
