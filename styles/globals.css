@@ -56,10 +56,11 @@ a {
   text-decoration: none;
 }
 
-.main-block {
+.main-block,
+.post-block {
   display: block;
   align-items: center;
-  margin: 13em 15vw 13em 15vw;
+  margin: 10em 15vw 13em 15vw;
 }
 
 .about-section {
@@ -152,6 +153,35 @@ a {
   border-radius: 5%;
   height: auto;
   width: 400px;
+}
+
+.post-block {
+  text-align: justify;
+}
+
+.post-img-container {
+  text-align: center;
+}
+
+.post-img,
+.post-content img {
+  border-radius: 5%;
+  height: auto;
+  max-width: 70vw;
+}
+
+.post-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content pre {
+  text-align: justify;
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
 }
 
 /* TODO: add responsive media CSS tags here */

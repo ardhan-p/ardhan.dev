@@ -2,7 +2,6 @@ import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter';
-import Navbar from '../components/Navbar'
 import About from '../components/About'
 import Projects from '../components/Projects'
 import Blogs from '../components/Blogs'
@@ -21,6 +20,10 @@ export default function Home({ posts }) {
       <Blogs currentPosts={posts}/>
     </div>
   )
+}
+
+export const sortByDate = (a, b) => {
+  return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
 }
 
 // https://youtu.be/MrjeefD8sac
@@ -43,7 +46,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts
+      posts: posts.sort(sortByDate)
     }
   }
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function BlogPost({ post }) {
   return (
-    <Link href={`/blog/${post.slug}`}>
+    <Link href={`/blog/${post.slug}`} suppressHydrationWarning>
       <div className="blog-card">
         <img className="blog-image" src={post.frontmatter.cover_image} alt="" />
         <div className="blog-info">
