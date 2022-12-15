@@ -16,7 +16,6 @@ export default function Home({ posts }) {
         <meta name="description" content="Ardhan's Personal Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
       <About/> 
       <Projects/>
       <Blogs currentPosts={posts}/>

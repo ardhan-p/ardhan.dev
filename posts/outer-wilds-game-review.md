@@ -1,7 +1,7 @@
 ---
 title: "Outer Wilds Game Review"
 date: "8 July 2022"
-excerpt: "An imaginative sci-fi indie game that innovates video games' ability to tell a meaningful story"
+excerpt: "An imaginative sci-fi indie game that innovates video games' ability to tell a meaningful story."
 cover_image: "/post_images/outer_wilds.jpg"
 ---
 

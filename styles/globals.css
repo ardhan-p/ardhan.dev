@@ -1,13 +1,23 @@
 html,
-body {
+body {  
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html {
+  min-width: 100vw;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
 a {
-  color: inherit;
+  color: #000;
   text-decoration: none;
 }
 
@@ -20,7 +30,7 @@ a {
   background-color: #FFF;
   position: fixed;
   top: 0;
-  width: 100%;
+  min-width: 100%;
 }
 
 .navbar-list {
@@ -48,7 +58,8 @@ a {
 
 .main-block {
   display: block;
-  margin: 13em 15vw 2em 15vw;
+  align-items: center;
+  margin: 13em 15vw 13em 15vw;
 }
 
 .about-section {
@@ -111,12 +122,36 @@ a {
   background-attachment: local, local, scroll, scroll;
 }
 
-.project-card {
+.project-card,
+.blog-card {
+  margin: 20px;
   padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.project-card:hover,
+.blog-card:hover {
+  border-radius: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); 
 }
 
 .project-image {
   height: 400px;
   width: auto;
-  transition: 0.5s;
 }
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.blog-image {
+  border-radius: 5%;
+  height: auto;
+  width: 400px;
+}
+
+/* TODO: add responsive media CSS tags here */
