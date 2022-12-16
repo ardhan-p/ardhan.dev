@@ -8,9 +8,9 @@ export default function About() {
       </div>
       <div className="social-icons">
         <ul className="social-list">
-          <li className="social-icon"><a href="https://github.com/ardhan-p"><img className="icon" src="images/github.png" alt="GitHub Account"/></a></li>
-          <li className="social-icon"><a href="https://www.linkedin.com/in/ardhan-p/"><img className="icon" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
-          <li className="social-icon"><a href="mailto:ardhan.s.pratama@gmail.com" target="_blank"><img className="icon" src="images/email.png" alt="Email Address"/></a></li>
+          <li className="social-icon"><a href="https://github.com/ardhan-p" target={"_blank"}><img className="icon" src="images/github.png" alt="GitHub Account"/></a></li>
+          <li className="social-icon"><a href="https://www.linkedin.com/in/ardhan-p/" target={"_blank"}><img className="icon" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
+          <li className="social-icon"><a href="mailto:ardhan.s.pratama@gmail.com" target={"_blank"}><img className="icon" src="images/email.png" alt="Email Address"/></a></li>
         </ul>
       </div>
     </div>
