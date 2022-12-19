@@ -27,7 +27,6 @@ a {
   box-sizing: border-box;
 }
 
-
 .navbar {
   background-color: #FFF;
   position: fixed;
@@ -93,6 +92,10 @@ a {
   margin-right: 10vh;
 }
 
+.about-image-left {
+  display: none;
+}
+
 .social-list {
   list-style-type: none;
   padding: 0;
@@ -149,6 +152,22 @@ a {
 .project-image {
   height: 400px;
   width: auto;
+  
+}
+
+.project-modal-content .project-image {
+  max-height: 450px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.project-modal-image-wrapper {
+  text-align: center;
+}
+
+.project-close-wrapper {
+  text-align: right;
 }
 
 .project-modal, .project-modal-background {
@@ -171,15 +190,18 @@ body.active-project-modal {
 
 .project-modal-content {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
   background: #f1f1f1;
   padding: 14px 28px;
   border-radius: 5%;
-  max-width: 600px;
-  min-width: 300px;
+  min-width: 35vw;
+}
+
+.project-close {
+  padding: 5px 7px;
 }
 
 .posts-container {
@@ -225,3 +247,23 @@ body.active-project-modal {
 }
 
 /* TODO: add responsive media CSS tags here */
+
+@media only screen and (max-width: 800px) {
+  .main-block .about-section {
+    display: inline;
+  }
+
+  .about-image-left {
+    display: block;
+  }
+
+  .about-image-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .project-modal-content {
+    min-width: 85vw;
+  }
+}
