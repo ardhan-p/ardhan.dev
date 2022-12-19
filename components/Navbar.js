@@ -12,7 +12,7 @@ export default function Navbar() {
           </Link>
 
           <li className="nav-right">
-            <a href="mailto:ardhan.s.pratama@gmail.com" target="_blank">email</a>
+            <a href="mailto:ardhan.s.pratama@gmail.com" target="_blank" rel="noreferrer">email</a>
           </li>
 
           <Link href={"/#blogs"} scroll={false}>

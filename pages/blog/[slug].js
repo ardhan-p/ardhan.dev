@@ -2,18 +2,19 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter';
 import { marked } from 'marked';
+import Head from 'next/head';
 
 export default function PostPage({frontmatter: {title, date, cover_image}, slug, content}) {
   return (
     <div className='post-block'>
-      <head>
+      <Head>
         <title>{title}</title>
-      </head>
+      </Head>
       <div className='post-info'>
         <h1 className='post-title'>{title}</h1>
         <p className='post-date'>{date}</p>
         <div className='post-img-container'>
-          <img className='post-img' src={cover_image}/>
+          <img className='post-img' alt='Cover Blog Image' src={cover_image}/>
         </div>
       </div>
 

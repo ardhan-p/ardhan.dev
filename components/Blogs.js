@@ -6,7 +6,7 @@ export default function Blogs({ currentPosts }) {
       <h2>My Blog.</h2>
       <div className="posts-container">
         {currentPosts.map((post, index) => (
-          <BlogPost post={post}/>
+          <BlogPost key={index} post={post}/>
         ))}
       </div>
     </div>

@@ -5,7 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   scroll-behavior: smooth;
-  scroll-padding-top: 10em;
+  scroll-padding-top: 9em;
 }
 
 html {
@@ -68,7 +68,7 @@ a {
 .post-block {
   display: block;
   align-items: center;
-  margin: 10em 15vw 13em 15vw;
+  margin: 9em 15vw 13em 15vw;
 }
 
 .about-section {
@@ -88,8 +88,8 @@ a {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
-.about-section p {
-  margin-right: 10vh;
+.about-description {
+  margin-right: 13vw;
 }
 
 .about-image-left {
@@ -99,6 +99,7 @@ a {
 .social-list {
   list-style-type: none;
   padding: 0;
+  margin-top: 1vh;
 }
 
 .social-icon {
@@ -141,6 +142,7 @@ a {
   padding: 20px;
   text-align: center;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .project-card:hover,
@@ -152,7 +154,6 @@ a {
 .project-image {
   height: 400px;
   width: auto;
-  
 }
 
 .project-modal-content .project-image {
@@ -168,6 +169,12 @@ a {
 
 .project-close-wrapper {
   text-align: right;
+  cursor: pointer;
+}
+
+.project-close-icon {
+  height: 20px;
+  width: 20px;
 }
 
 .project-modal, .project-modal-background {
@@ -195,7 +202,7 @@ body.active-project-modal {
   transform: translate(-50%, -50%);
   line-height: 1.4;
   background: #f1f1f1;
-  padding: 14px 28px;
+  padding: 28px;
   border-radius: 5%;
   min-width: 35vw;
 }
@@ -232,6 +239,10 @@ body.active-project-modal {
   max-width: 70vw;
 }
 
+.post-title {
+  text-align: left;
+}
+
 .post-content img {
   display: block;
   margin-left: auto;
@@ -246,24 +257,45 @@ body.active-project-modal {
   line-height: 2.3;
 }
 
-/* TODO: add responsive media CSS tags here */
+@media only screen and (max-width: 1200px) {
+  .project-modal-content {
+    min-width: 85vw;
+  }
 
-@media only screen and (max-width: 800px) {
+  .posts-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 850px) {
   .main-block .about-section {
     display: inline;
   }
 
   .about-image-left {
-    display: block;
+    display: inline;
+    margin: 2.5vh;
+  }
+
+  .about-image-left-wrapper {
+    text-align: center;
   }
 
   .about-image-right {
     display: none;
   }
+
+  .social-list {
+    margin-top: 3.5vh;
+  }
+
+  .about-description {
+    margin-right: 0vw;
+  }
 }
 
-@media only screen and (max-width: 1200px) {
-  .project-modal-content {
-    min-width: 85vw;
-  }
+@media only screen and (max-width: 600px) {
+  .blog-image {
+    width: 250px;
+  } 
 }
