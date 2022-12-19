@@ -15,19 +15,19 @@ export default function Navbar() {
             <a href="mailto:ardhan.s.pratama@gmail.com" target="_blank">email</a>
           </li>
 
-          <Link href={"/#blogs"}>
+          <Link href={"/#blogs"} scroll={false}>
             <li className="nav-right">
               <a>blog</a>
             </li>
           </Link>
 
-          <Link href={"/#projects"}>
+          <Link href={"/#projects"} scroll={false}>
             <li className="nav-right">
               <a>projects</a>
             </li>
           </Link>
 
-          <Link href={"/#about"}>
+          <Link href={"/#about"} scroll={false}>
             <li className="nav-right">
               <a>about</a>
             </li>
