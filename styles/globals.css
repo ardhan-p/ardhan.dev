@@ -13,8 +13,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  min-width: 400px;
   margin: 0 auto;
 }
 
@@ -138,12 +136,13 @@ a {
 
 .project-card,
 .blog-card {
-  margin: 20px;
+  margin: 20px 5px 20px 5px;
   padding: 20px;
   text-align: center;
   transition: 0.5s;
   cursor: pointer;
 }
+
 
 .project-card:hover,
 .blog-card:hover {
@@ -229,7 +228,7 @@ body.active-project-modal {
 }
 
 .post-block {
-  text-align: justify;
+  text-align: left;
 }
 
 .post-img-container {
@@ -317,11 +316,17 @@ body.active-project-modal {
 }
 
 @media only screen and (max-width: 420px) {
+  .about-image-left {
+    width: 150px;  
+    height: 150px;  
+  }
+
   .blog-image {
-    width: 200px;
+    width: 170px;
   } 
 
-  .project-modal-content {
-    margin-left: 5vw;
+  .project-image {
+    height: 170px;
+    width: auto;
   }
 }
