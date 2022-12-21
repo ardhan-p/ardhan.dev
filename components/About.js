@@ -1,3 +1,7 @@
+import Image from "next/image"
+import pfp from "/public/images/pfp.png"
+import gh from "/public/images/github.png"
+
 export default function About() {
   return (
     <div className="main-block" id="about">
@@ -26,9 +30,21 @@ export default function About() {
       </div>
       <div className="social-icons">
         <ul className="social-list">
-          <li className="social-icon"><a href="https://github.com/ardhan-p" target={"_blank"} rel="noreferrer"><img className="icon" src="images/github.png" alt="GitHub Account" /></a></li>
-          <li className="social-icon"><a href="https://www.linkedin.com/in/ardhan-p/" target={"_blank"} rel="noreferrer"><img className="icon" src="images/linkedin.png" alt="LinkedIn Account" /></a></li>
-          <li className="social-icon"><a href="mailto:ardhan.s.pratama@gmail.com" target={"_blank"} rel="noreferrer"><img className="icon" src="images/email.png" alt="Email Address" /></a></li>
+          <li className="social-icon">
+            <a href="https://github.com/ardhan-p" target={"_blank"} rel="noreferrer">
+              <img className="icon" src="images/github.png" alt="GitHub Account" />            
+            </a>
+          </li>
+          <li className="social-icon">
+            <a href="https://www.linkedin.com/in/ardhan-p/" target={"_blank"} rel="noreferrer">
+              <img className="icon" src="images/linkedin.png" alt="LinkedIn Account" />
+            </a>
+          </li>
+          <li className="social-icon">
+            <a href="mailto:ardhan.s.pratama@gmail.com" target={"_blank"} rel="noreferrer">
+              <img className="icon" src="images/email.png" alt="Email Address" />
+            </a>
+          </li>
         </ul>
       </div>
     </div>

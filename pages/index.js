@@ -12,7 +12,7 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>ardhan.dev</title>
-        <meta name="description" content="Ardhan's Personal Website" />
+        <meta name="description" content="Ardhan's Super Cool Personal Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <About/> 

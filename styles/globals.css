@@ -152,12 +152,12 @@ a {
 }
 
 .project-image {
-  height: 400px;
+  height: 350px;
   width: auto;
 }
 
 .project-modal-content .project-image {
-  max-height: 450px;
+  max-height: 350px;
   max-width: 100%;
   width: auto;
   height: auto;
@@ -169,17 +169,19 @@ a {
 
 .project-close-wrapper {
   text-align: right;
-  cursor: pointer;
 }
 
 .project-close-icon {
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 
 .project-modal, .project-modal-background {
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
   top: 0;
   left: 0;
   right: 0;
@@ -192,6 +194,8 @@ body.active-project-modal {
 }
 
 .project-modal-background {
+  height: 100%;
+  width: 100%;
   background: rgba(49,49,49,0.8);
 }
 
@@ -298,4 +302,26 @@ body.active-project-modal {
   .blog-image {
     width: 250px;
   } 
+
+  .project-image {
+    height: 250px;
+    width: auto;
+  }
+
+  .project-modal-content .project-image {
+    max-height: 200px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .blog-image {
+    width: 200px;
+  } 
+
+  .project-modal-content {
+    margin-left: 5vw;
+  }
 }
