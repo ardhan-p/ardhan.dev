@@ -15,21 +15,9 @@ export default function Navbar() {
             <a href="mailto:ardhan.s.pratama@gmail.com" target="_blank" rel="noreferrer">email</a>
           </li>
 
-          <Link href={"/#blogs"} scroll={false}>
-            <li className="nav-right">
-              <a>blog</a>
-            </li>
-          </Link>
-
           <Link href={"/#projects"} scroll={false}>
             <li className="nav-right">
               <a>projects</a>
-            </li>
-          </Link>
-
-          <Link href={"/#about"} scroll={false}>
-            <li className="nav-right">
-              <a>about</a>
             </li>
           </Link>
         </ul>

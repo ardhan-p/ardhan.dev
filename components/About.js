@@ -1,18 +1,14 @@
-import Image from "next/image"
-import pfp from "/public/images/pfp.png"
-import gh from "/public/images/github.png"
-
 export default function About() {
   return (
     <div className="main-block" id="about">
       <h1>Hey, Ardhan here.</h1>
       <div className="about-section">
         <div className="about-image-left-wrapper">
-          <img src="images/pfp.png" className="about-image-left" alt="Image of Ardhan" />
+          <img src="images/ardhan_pfp_icon.jpeg" className="about-image-left" alt="Image of Ardhan" />
         </div>
         <div className="about-description">
           <p>
-            I&apos;m a recent Computer Science graduate from University of Wollongong (Singapore Institute of Management Campus).
+            I&apos;m currently a junior software engineer working in Samsung Research Indonesia.
           </p>
           <p>
             Making a positive difference in people&apos;s lives through technology has always been cool to me, and I&apos;m inspired
@@ -20,13 +16,12 @@ export default function About() {
           </p>
           <p>
             You can check out a couple of my programming projects that I&apos;ve created down below.
-            You can also pay a visit to my boring blog there, where I will write anything that interests me. Literally anything.
           </p>
           <p>
-            Feel free to connect with me!
+            Feel free to connect with me! (or not, up to you really)
           </p>
         </div>
-        <img src="images/pfp.png" className="about-image-right" alt="Image of Ardhan" />
+        <img src="images/ardhan_pfp_icon.jpeg" className="about-image-right" alt="Image of Ardhan" />
       </div>
       <div className="social-icons">
         <ul className="social-list">
