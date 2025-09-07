@@ -1,6 +1,4 @@
-import React from "react";
-
-const Section = (id: string, title: string, children: React.ReactNode) => {
+const Section = ({id, title, children} : {id: string, title: string, children?: React.ReactNode}) => {
 	return (
 		<section id={id}>
 			<div>

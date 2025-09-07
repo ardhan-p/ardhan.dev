@@ -1,4 +1,4 @@
-import React from "react";
+import { personalInfo } from "../data";
 
 const Header = () => {
   const navigationLinks = ["about", "experience", "skills", "projects"];
@@ -6,19 +6,26 @@ const Header = () => {
   return (
     <header>
       <div>
-        <a href="#">
-          ardhan.dev
+        <a 
+          href="#"
+        >
+          {personalInfo.username}
         </a>
 
         <nav>
           {navigationLinks.map((link) => (
-            <a>
+            <a
+              key={link}
+              href={`#${link}`}
+            >
               {link}
             </a>
           ))}
         </nav>
 
-        <a>
+        <a
+          href={`mailto:${personalInfo.email}`}
+        >
           contact
         </a>
       </div>
