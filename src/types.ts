@@ -1,24 +1,17 @@
-import type { JSX } from "react";
-
-export type Skill = {
-  name: string;
-  icon: JSX.Element;
-};
-
 export type Project = {
   title: string;
   description: string;
   githubUrl: string;
   demoUrl?: string;
-  skill: Skill[];
+  skill: string[];
 };
 
 export type Experience = {
   title: string;
   company: string;
   description: string[];
+  skill: string[];
   duration: string;
-  skill: Skill[];
 };
 
 export type Certification = {
