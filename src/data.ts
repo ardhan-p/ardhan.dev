@@ -10,13 +10,12 @@ export const personalInfo = {
 
 export const heroParagraphs = [
 	"I'm a software developer currently working in Samsung Research Indonesia.",
-	"I'm passionate with transforming abstract ideas into awesome technical projects, whether it is through techincal leadership, or through clean and maintainable software engineering.",
 	"Making a positive difference in people's lives through technology has always been cool to me, and I'm inspired to learn as much as I can to achieve that.",
 	"Feel free to connect with me! (or not, up to you really)"
 ];
 
 export const aboutParagraphs = [
 	"hello world 1!",
-	"hello world 2!",
+	"I'm passionate with transforming abstract ideas into awesome technical projects, whether it is through techincal leadership, or through clean and maintainable software engineering.",
 	"hello world 3!",
 ];
