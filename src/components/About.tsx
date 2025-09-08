@@ -5,8 +5,8 @@ const About = () => {
   return (
     <Section id="about" title="about me">
       <div>
-        {aboutMeParagraphs.map((p) => (
-          <p>{p}</p>
+        {aboutMeParagraphs.map((paragraph) => (
+          <p>{paragraph}</p>
         ))}
       </div>
     </Section>
