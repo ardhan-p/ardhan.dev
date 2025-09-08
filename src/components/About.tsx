@@ -1,12 +1,16 @@
-import { aboutMeParagraphs } from "../data";
+import { aboutParagraphs } from "../data";
 import Section from "./Section";
 
 const About = () => {
   return (
-    <Section id="about" title="about me">
+    <Section id="about" title="About Me">
       <div>
-        {aboutMeParagraphs.map((paragraph) => (
-          <p>{paragraph}</p>
+        {aboutParagraphs.map((paragraph, index) => (
+          <p 
+            key={index}
+          >
+            {paragraph}
+          </p>
         ))}
       </div>
     </Section>
