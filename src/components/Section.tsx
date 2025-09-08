@@ -1,4 +1,10 @@
-const Section = ({id, title, children} : {id: string, title: string, children?: React.ReactNode}) => {
+type SectionProps = {
+	id: string; 
+	title: string;
+	children: React.ReactNode;
+}
+
+const Section = ({id, title, children} : SectionProps ) => {
 	return (
 		<section id={id}>
 			<div>
@@ -6,7 +12,7 @@ const Section = ({id, title, children} : {id: string, title: string, children?: 
 			</div>
 			{children}
 		</section>
-	);
+	)
 };
 
 export default Section;
