@@ -3,7 +3,7 @@ import Section from "./Section";
 
 const About = () => {
   return (
-    <Section id="about" title="About Me">
+    <Section id="about" title="About myself.">
       <div>
         {aboutParagraphs.map((paragraph, index) => (
           <p 
