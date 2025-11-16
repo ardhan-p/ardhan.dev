@@ -12,6 +12,7 @@ export type Experience = {
   description: string[];
   skill: string[];
   duration: string;
+  link: string;
 };
 
 export type Certification = {
