@@ -8,6 +8,7 @@ const About = () => {
         {aboutParagraphs.map((paragraph, index) => (
           <p 
             key={index}
+            className="py-2"
           >
             {paragraph}
           </p>
