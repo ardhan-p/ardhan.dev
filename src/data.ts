@@ -26,9 +26,9 @@ export const experienceData: Experience[] = [
 		title: "Software Engineer - Technical Lead",
 		company: "Samsung Research Indonesia",
 		description: [
-			"Led a team of software engineers to develop and maintain server-side applications for Samsung's Smart TV platform at a global scale.",
+			"Leading a team of software engineers to develop and maintain server-side applications for Samsung's Smart TV platform at a global scale.",
 		],
-		skill: ["JavaScript", "Tizen SDK", "UI/UX Design", "Performance Optimization"],
+		skill: ["Technical Project Leadership", "Infrastructure-as-Code", "AWS", "Spring Boot", "React"],
 		duration: "Sep 2024 - Present",
 		link: "https://www.samsung.com/id/srin/",
 	},
@@ -38,7 +38,7 @@ export const experienceData: Experience[] = [
 		description: [
 			"Repsonsible for developing and maintaining server-side applications for Samsung's Smart TV platform.",
 		],
-		skill: ["JavaScript", "Tizen SDK", "UI/UX Design", "Performance Optimization"],
+		skill: ["AWS", "Spring Boot", "React", "Java", "TypeScript"],
 		duration: "Apr 2023 - Sep 2024",
 		link: "https://www.samsung.com/id/srin/",
 	},
