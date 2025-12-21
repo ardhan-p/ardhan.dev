@@ -24,6 +24,7 @@ export const aboutParagraphs = [
 export const experienceData: Experience[] = [
 	{
 		title: "Software Engineer - Technical Lead",
+		location: "Jakarta, Indonesia",
 		company: "Samsung Research Indonesia",
 		description: [
 			"Leading a team of software engineers to develop and maintain server-side applications for Samsung's Smart TV platform at a global scale.",
@@ -35,6 +36,7 @@ export const experienceData: Experience[] = [
 	{
 		title: "Software Engineer",
 		company: "Samsung Research Indonesia",
+		location: "Jakarta, Indonesia",
 		description: [
 			"Repsonsible for developing and maintaining server-side applications for Samsung's Smart TV platform.",
 		],

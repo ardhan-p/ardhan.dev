@@ -18,8 +18,13 @@ const ExperienceCard = (experience : Experience) => {
           </a>
           
           <p className="py-2 italic">
-            ({experience.duration})
+            {experience.location}
           </p>
+
+          <p className="py-2 italic">
+            {experience.duration}
+          </p>
+          
         </div>
         <div className="basis-2/3 self-start">
           <ul>
