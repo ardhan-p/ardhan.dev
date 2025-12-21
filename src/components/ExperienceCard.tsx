@@ -27,7 +27,7 @@ const ExperienceCard = (experience : Experience) => {
           
         </div>
         <div className="basis-2/3 self-start">
-          <ul>
+          <ul className="list-disc">
             {experience.description.map((point, index) => (
               <li key={index} className="py-2">{point}</li>
             ))}
