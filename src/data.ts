@@ -14,7 +14,12 @@ export const personalInfo = {
 export const heroParagraphs = [
 	"I'm a software developer currently working at Samsung Research Indonesia.",
 	"Making a positive difference in people's lives through technology has always been cool to me, and I'm inspired to learn as much as I can to achieve that.",
-	"Feel free to connect with me! (or not, up to you really)"
+	"Feel free to connect with me :)",
+	"Or not, up to you really."
+];
+
+export const aboutParagraphs = [
+	"You'll often find me tinkering with new tech, playing with my Steam Deck, or diving into a good book (usually not all at once).",
 ];
 
 export const experienceData: Experience[] = [
@@ -24,10 +29,8 @@ export const experienceData: Experience[] = [
 		company: "Samsung Research Indonesia",
 		description: [
 			"Currently leading a team of software engineers to develop and maintain 3 concurrent server-side applications for the Samsung Smart TV platform (Daily+, Now Brief, Privacy Center).",
-			"Closely collaborating with cross-regional stakeholders to deliver high-quality software solutions that meet user requirements and business goals.",
-			"Enabled agile practices within the team, facilitating sprint planning, bi-weekly stand-ups, and retrospectives that improved project predictability and the team's transparency.",
-			"Standardized technical documentation process by incorporating architectural design records (ADRs) onto the core development flow, which was adopted by multiple development teams within the organization.",
 			"Defined technical roadmap and AWS architecture for the team, ensuring on-time delivery of features while maintaining system reliability, global scalability, and cost-efficiency.",
+			"Standardized technical documentation process by incorporating architectural design records (ADRs) onto the core development flow, which was adopted by multiple development teams within the organization.",
 			"Architected and implemented the migration of manually provisioned cloud resources to Infrastructure-as-Code (IaC) using AWS Cloud Development Kit (CDK) with TypeScript, improving deployment velocity and reducing manual errors.",
 		],
 		skill: ["Technical Project Leadership", "Infrastructure-as-Code", "AWS", "Spring Boot", "React"],
