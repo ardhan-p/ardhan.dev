@@ -1,5 +1,6 @@
 import { heroParagraphs, personalInfo } from "../data";
 import { EmailIcon, GithubIcon, LinkedinIcon } from "../icons";
+import profilePhoto from "../assets/ardhan-pfp-1.jpeg";
 
 const Hero = () => {
    return (
@@ -60,7 +61,7 @@ const Hero = () => {
             <div className="h-64 w-64 my-4">
               <img 
                 className="rounded-md shadow-2xl"
-                src="src/public/ardhan-pfp-1.jpeg"
+                src={profilePhoto}
               />
             </div>
           </div>
