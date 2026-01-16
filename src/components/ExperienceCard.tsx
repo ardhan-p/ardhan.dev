@@ -13,7 +13,7 @@ const ExperienceCard = (experience : Experience) => {
             href={experience.link} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="py-2 underline">
+            className="py-2 underline underline-offset-4 hover:text-blue-800 transition-colors">
             {experience.company}
           </a>
           
